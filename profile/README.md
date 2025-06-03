@@ -27,7 +27,7 @@ Frontend ведется на React, для БД используется Postgre
 
 
 
-![image](https://github.com/user-attachments/assets/a3097d5a-a8af-4bd4-b55e-a2699e88fcb6)
+![image](./images/logic.jpg)
 
 
 
@@ -35,12 +35,12 @@ Frontend ведется на React, для БД используется Postgre
 
 Раздел заказов имеет следующий вид:
 
-![image](https://github.com/user-attachments/assets/f52279f7-a357-40f0-86af-d0a12cc32c80)
+![image](./images/orders.jpg)
 
 
 Здесь можно создать новый заказ, редактировать уже существующий или просмотреть его, а также провести анализ прибыли заказа. Остановимся, к примеру, на последнем - на скриншоте видно, как это реализовано.
 
-![image](https://github.com/user-attachments/assets/01d478bd-d72f-4dc5-afa1-17128cf079c6)
+![image](./images/analyse.jpg)
 
 
 
@@ -52,7 +52,7 @@ Frontend ведется на React, для БД используется Postgre
 
 Само собой, в нем же можно и добавить нового клиента.
 
-![image](https://github.com/user-attachments/assets/9257eb3b-d386-49c1-a33f-cebbefbb407b)
+![image](./images/Clients.jpg)
 
 
 ## Склад
@@ -61,35 +61,35 @@ Frontend ведется на React, для БД используется Postgre
 Однако, без нужных ингредиентов ничего не сделаешь. 
 Добавим ингредиенты в разделе Склад -> Ингредиенты. 
 
-![image](https://github.com/user-attachments/assets/abe8fe0e-5b7c-4006-956d-b527c009d7a4)
+![image](./images/storage.jpg)
 
 
 Попутно здесь можно добавить необходимые для заказа коробки и красители.
 
-![image](https://github.com/user-attachments/assets/d4ce1fea-4b50-477f-a6c8-7c87980cba3a)
+![image](./images/ingredients.jpg)
 
 
-![image](https://github.com/user-attachments/assets/c25b9990-cc9b-48fa-aa23-687b967f8599)
+![image](./images/dyes.jpg)
 
 
-![image](https://github.com/user-attachments/assets/bb33fc03-30d6-4ecb-8160-d2498e2075a7)
+![image](./images/boxes.jpg)
 
 
 ## Цветки и лоты. 
 
 Теперь, после заданных ингредиентов, можно переходить к последней части всего процесса - созданию рецептов цветков и созданию лотов для заказов. 
 
-![image](https://github.com/user-attachments/assets/384d382a-f444-453f-8e4d-5daba22db710)
+![image](./images/flowers_menu.jpg)
 
 
-![image](https://github.com/user-attachments/assets/4806cbbb-06f4-4b88-b5e5-e7fa8a719b6d)
+![image](./images/flowers_formula.jpg)
 
 
 > Описание цветка
 
 
 
-![image](https://github.com/user-attachments/assets/72ee9034-0bc3-4132-bc3f-cc2a63b43187)
+![image](./images/add_to_lot.jpg)
 
 > Формирование лота
 
@@ -100,4 +100,4 @@ Frontend ведется на React, для БД используется Postgre
 
 Последний раздел, заслуживающий упоминания - раздел "Финансы". Здесь клиент может посмотреть и детально проанализировать все финансовые точности завершенных заказов.
 
-![image](https://github.com/user-attachments/assets/2d84db2c-ebbf-4c47-a8f5-0a110f8e3740)
+![image](./images/finances.jpg)
